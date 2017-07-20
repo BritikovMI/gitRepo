@@ -1,4 +1,10 @@
 
+../apache-maven-3.3.9/bin/mvn archetype:generate -DgroupId=ru.rbt.gitRepo -DartifactId=gitRepo1 -DachetypeArtifactId=maven-achetype-quickstart -DinteractiveMode=false
+
+git init
+
+git remote add origin https://github.com/BritikovMI/gitRepo.git
+
 git add .
 git commit -am "my message"
 
