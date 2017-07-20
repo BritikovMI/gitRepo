@@ -1,0 +1,11 @@
+
+git add .
+git commit -am "my message"
+
+git fetch origin master
+
+git pull --rebase origin master
+
+git push origin master
+git push -f origin master
+
