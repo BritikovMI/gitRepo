@@ -9,3 +9,17 @@ git pull --rebase origin master
 git push origin master
 git push -f origin master
 
+----------------------------
+git rebase -i HEAD~3
+
+pick
+squash
+squash
+
+git push -f origin master
+----------------------------
+
+../../apache-maven-3.3.9/bin/mvn clean install -Dmaven.test.skip=true -T6 -Ptotal
+
+
+./run.sh
