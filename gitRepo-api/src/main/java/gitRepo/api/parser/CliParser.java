@@ -1,4 +1,4 @@
-package ru.rbt.gitRepo.api.parser;
+package gitRepo.api.parser;
 
 import java.util.Arrays;
 import java.util.List;

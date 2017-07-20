@@ -1,4 +1,4 @@
-package ru.rbt.gitRepo;
+package ru.rbt.gitRepo.test;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
